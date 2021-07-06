@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lnhBsXW73iIya3G7tMC6f+JArZdw1LFEDq8F9SFrqelAH1WKtsM4baF6c+C2qH59yLl3JGdj4bV+D/Ubysh/2A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Igor\\Desktop\\API de Identidade\\API-de-Identidade-desenvolvedor.io\\src\\services\\NSE.Pedido.API\\NSE.Pedido.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Igor\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.8\\microsoft.visualstudio.azure.containers.tools.targets.1.10.8.nupkg.sha512"
+  ],
+  "logs": []
+}
