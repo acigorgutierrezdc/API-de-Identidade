@@ -77,6 +77,7 @@ namespace NSE.Identidade.API.Controllers
             }
 
             AdicionarErroProcessamento("Usuário ou Senha incorretos");
+            //Igor - 06072021 - Esse custom response esta retornando sempre o http error 400, porém, existem status para cada tipo de validação. Olha a POG instrutor.
             return CustomResponse();
         }
 
