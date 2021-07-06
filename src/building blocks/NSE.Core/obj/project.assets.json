@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Igor\\Desktop\\API de Identidade\\API-de-Identidade-desenvolvedor.io\\src\\building blocks\\NSE.Core\\NSE.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Igor\\Desktop\\API de Identidade\\src\\building blocks\\NSE.Core\\NSE.Core.csproj",
       "projectName": "NSE.Core",
-      "projectPath": "C:\\Users\\Igor\\Desktop\\API de Identidade\\API-de-Identidade-desenvolvedor.io\\src\\building blocks\\NSE.Core\\NSE.Core.csproj",
+      "projectPath": "C:\\Users\\Igor\\Desktop\\API de Identidade\\src\\building blocks\\NSE.Core\\NSE.Core.csproj",
       "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Igor\\Desktop\\API de Identidade\\API-de-Identidade-desenvolvedor.io\\src\\building blocks\\NSE.Core\\obj\\",
+      "outputPath": "C:\\Users\\Igor\\Desktop\\API de Identidade\\src\\building blocks\\NSE.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
