@@ -82,6 +82,7 @@ namespace NSE.Identidade.API.Controllers
 
         private async Task<UsuarioRespostaLogin> GerarJwt(string email)
         {
+            //Igor 06072021 - Lembrando que o _userManager está na memória não sendo necessário nova consulta no banco de dados.
             var user = await _userManager.FindByEmailAsync(email);
             var claims = await _userManager.GetClaimsAsync(user);
 

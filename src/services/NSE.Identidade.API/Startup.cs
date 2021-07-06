@@ -33,13 +33,18 @@ namespace NSE.Identidade.API
 
             services.AddApiConfiguration();
 
+
+            //Igor - 06072021 - Adicionado as instancias de serviços da aplicação o instanciamento do framework de documentação da api, chamado Swagger.
             services.AddSwaggerConfiguration();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            //Igor - 06072021 - Adicionado a instancia do "app" para utilizar o swagger, nesta classe Configure que é uma das chamadas na inicialização da aplicação.
+            //Verificar os middlewares pra ver a prioridade destas chamadas.
             app.UseSwaggerConfiguration();
             
+            //O mesmo comentário acima, porém, para utilizar as configurações do pipeline de API.
             app.UseApiConfiguration(env);
         }
     }

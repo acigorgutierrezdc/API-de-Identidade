@@ -37,11 +37,13 @@ namespace NSE.Identidade.API.Models
 
     public class UsuarioToken
     {
+        //Igor - 06072021 - Falta adicionar uns campos aqui né, como nome completo, celular.
         public string Id { get; set; }
         public string Email { get; set; }
         public IEnumerable<UsuarioClaim> Claims { get; set; }
     }
 
+    //Igor - 06072021 - Essa classe de claims não me parece cascade nem recursiva. Verificar melhor. Tipo/0/1 é pouco pra permissões principalmente quando se trata de ações do usuário.
     public class UsuarioClaim
     {
         public string Value { get; set; }

@@ -1,3 +1,4 @@
+//Igor - 06072021 - É nestas configurações que são setados os ambientes e "containers/hospedeiros" que irão rodar a aplicação.
 {
   "iisSettings": {
     "windowsAuthentication": false,

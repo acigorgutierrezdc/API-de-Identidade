@@ -39,6 +39,7 @@ namespace NSE.Identidade.API.Controllers
             return !Erros.Any();
         }
 
+        //Igor - 06072021 - Classezinha criada na unha pra gerenciamento dos retornos de erros, além dos padrões HTTP 200, 301, etc.
         protected void AdicionarErroProcessamento(string erro)
         {
             Erros.Add(erro);

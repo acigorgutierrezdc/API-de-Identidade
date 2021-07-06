@@ -27,7 +27,7 @@ namespace NSE.Identidade.API.Configuration
 
 
             // JWT
-
+            //Igor - 06072021 - JWT é o framework para tokens API, adicionado via Nuget JWTBarer.
             var appSettingsSection = configuration.GetSection("AppSettings");
             services.Configure<AppSettings>(appSettingsSection);
 

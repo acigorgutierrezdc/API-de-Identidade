@@ -2,6 +2,7 @@
 
 namespace NSE.Identidade.API.Extensions
 {
+    //Igor - 06072021 - Classe copiada de algum lugar pelo instrutor do curso, pois o mesmo não teria disponibilidade pra escrever tanto. 
     public class IdentityMensagensPortugues : IdentityErrorDescriber
     {
         public override IdentityError DefaultError() { return new IdentityError { Code = nameof(DefaultError), Description = $"Ocorreu um erro desconhecido." }; }
