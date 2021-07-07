@@ -19,6 +19,7 @@ namespace NSE.Identidade.API.Configuration
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
+            //Igor - 07072021 - Aqui em baixo é legal comentar que o Idendity possuí várias propriedades que substituem os retornos de erro padrão, entre outros detalhes de autenticação.
             services.AddDefaultIdentity<IdentityUser>()
                 .AddRoles<IdentityRole>()
                 .AddErrorDescriber<IdentityMensagensPortugues>()
