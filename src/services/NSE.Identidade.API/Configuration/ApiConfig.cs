@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿//Igor 07072021 - Classe criada na unha, refatorando o StartUp, para melhor refatoração do código.
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;

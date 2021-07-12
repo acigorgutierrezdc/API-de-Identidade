@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Igor 07072021 - Classe criada na unha, refatorando o StartUp, para melhor refatoração do código.
+using System;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;

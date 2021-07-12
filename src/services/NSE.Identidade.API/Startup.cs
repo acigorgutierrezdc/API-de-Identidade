@@ -13,6 +13,7 @@ namespace NSE.Identidade.API
 
         public Startup(IHostEnvironment hostEnvironment)
         {
+            //Igor 07072021 - Este código foi modificado pelo instrutor para identificar corretamente os arquivos de desenvolvimento e arquivos de config da aplicação. Todos com final .json.
             var builder = new ConfigurationBuilder()
                 .SetBasePath(hostEnvironment.ContentRootPath)
                 .AddJsonFile("appsettings.json", true, true)

@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿//Igor 07072021 - Classe criada na unha, refatorando o StartUp, para melhor refatoração do código.
+using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
